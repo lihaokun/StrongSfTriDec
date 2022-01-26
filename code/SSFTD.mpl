@@ -15,10 +15,6 @@ for i from 1 to nops(PolyList) do
     end if;
 end do;
 TriList := IsTri(PolyList, VarList);
-# TriList = [true, mainvarList, JudgeList], where 
-# (1) lv(PolyList[i]) = mainvarList[i]
-# (2) PolyList为乱序三角列, PolyList[JudgeList[i]]正序的位置为倒数第i个
-# 或者 TriList = [false]
 if TriList[1]=true then
     if IniConstant(PolyList, TriList[2])=0 then 
         if nops(PolyList)=nops(VarList) then 
@@ -386,4 +382,3 @@ for i from 1 to nops(JudgeList) do
 end do;
 return true;
 end proc:
-

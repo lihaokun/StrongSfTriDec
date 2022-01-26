@@ -144,7 +144,7 @@ end proc:
 
 ################ proc PolysetToSfNormal
 # input: 
-# Polylist: a zero-dimensional nonempty set of nonzero polynomials
+# Polylist: a nonempty list of nonzero polynomials which are different from each other (list)
 # VarList: a nonempty list of variables
 # output: 
 # output: If Polylist has finite solutions, then the output is a strong square-free triangular decomposition (SSFTD) of Polylist.

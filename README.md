@@ -1,6 +1,6 @@
 # StrongSfTriDec
 SrongSfTriDec is short for strong square-free triangular decomposition (SSFTD).
-We present an algorithm for SSFTD of zero-dimensional polynomial systems in our paper.
+We propose an algorithm for SSFTD of zero-dimensional polynomial systems in our paper.
 ## Code
 All code is in "SSFTD.mpl".
 - The procedure "PolylistToNormal" is used for computing strong triangular decomposition (STD) of zero-dimensional polynomial systems.
@@ -28,6 +28,6 @@ Total 151 testing examples are also in "allbench.wls".
 
 
 ## Experimental Results
-We present our experimental results in the sheet.
+We present our experimental results in the sheet "allbench.csv".
 All tests were conducted on 16-Core Intel Core i7-12900KF@3.20GHz
 with 128GB of memory and Windows 11.

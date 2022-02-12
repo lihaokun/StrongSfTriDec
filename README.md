@@ -1,5 +1,5 @@
-# StrongSfTriDec
-SrongSfTriDec is short for strong square-free triangular decomposition (SFSTD).
+# SfStrongTriDec
+SfStrongTriDec is short for square-free strong triangular decomposition (SFSTD).
 We propose an algorithm for SFSTD of zero-dimensional polynomial systems in our paper.
 ## Code
 All code is in "SFSTD.mpl".

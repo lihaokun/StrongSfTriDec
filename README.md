@@ -29,5 +29,6 @@ Total 151 testing examples are also in "allbench.wls".
 
 ## Experimental Results
 We present our experimental results in the sheet "allbench.csv".
+Note that the column "Algorithm 3" and the column "mp-rc" record the time for triangular decomposition (followed by the numbers of components in parenthesis) by Algorithm 3 and the method mp-rc respectively.
 All tests were conducted on 16-Core Intel Core i7-12900KF@3.20GHz
 with 128GB of memory and Windows 11.

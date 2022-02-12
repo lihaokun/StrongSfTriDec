@@ -1,15 +1,15 @@
 # StrongSfTriDec
-SrongSfTriDec is short for strong square-free triangular decomposition (SSFTD).
-We propose an algorithm for SSFTD of zero-dimensional polynomial systems in our paper.
+SrongSfTriDec is short for strong square-free triangular decomposition (SFSTD).
+We propose an algorithm for SFSTD of zero-dimensional polynomial systems in our paper.
 ## Code
-All code is in "SSFTD.mpl".
+All code is in "SFSTD.mpl".
 - The procedure "PolylistToNormal" is used for computing strong triangular decomposition (STD) of zero-dimensional polynomial systems.
-- The procedure "PolylistToSfNormal" is used for computing SSFTD of zero-dimensional polynomial systems.
+- The procedure "PolylistToSfNormal" is used for computing SFSTD of zero-dimensional polynomial systems.
 ### Dependency
 [Maple 2021](https://www.maplesoft.com.cn/products/maple/professional/index.shtml)
 ### Using
 ```maple
-read ".../SSFTD.mpl";
+read ".../SFSTD.mpl";
 PolylistToNormal(sys, vars);
 PolylistToSfNormal(sys, vars);
 ```
